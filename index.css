@@ -53,8 +53,20 @@ a.custom-card:hover {
 }
 
 /*msg div*/
-.msg-div{
+
+.msg-received{
     position: relative;
 	background: #00aabb;
-	border-radius: .4em;;
+    border-radius: .4em;
+    padding : 8px;
+    margin : 4px 0 0 4px;
+    max-width: 50%;
+}
+.msg-sent{
+    position: relative;
+	background: #04ee81;
+    border-radius: .4em;
+    padding : 8px;
+    margin : 4px 4px 0px 0px;
+    max-width: 60%;
 }
