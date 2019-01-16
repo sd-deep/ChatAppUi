@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
@@ -18,7 +19,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav  ml-auto">
                 <li class="nav-item active">
                   <!--<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>-->
                 </li>
@@ -31,29 +32,19 @@
                       </li>      
                 <li class="nav-item">
                         <form class="form-inline">
-                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                                <i class="material-icons">search</i>                    
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">                
                         </form>
 
                 </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="changeProfilePic.html"><i class="material-icons">face</i></a> 
+                      </li>      
+                
               </ul>
-            </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                    <ul class="navbar-nav ">
-                            <li class="nav-item dropdown">
-                                    <a class="nav-link " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      <i class="material-icons">drag_indicator</i>
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                      <a class="dropdown-item" href="#">New Group</a>
-                                      <a class="dropdown-item" href="#">Profile</a>
-                                      <a class="dropdown-item" href="#">Settings</a>
-                                      <a class="dropdown-item" href="#">LogOut</a>
-                                    </div>
-                                  </li>
-                    </ul>
-                  </div>
+              
 
+            </div>
+            
           </nav>
           <!-- main body navigation -->
           <nav>
@@ -63,262 +54,49 @@
                   
                 </div>
               </nav>
-              <div class="tab-content container" id="nav-tabContent">
-                <div class="tab-pane fade show active " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <div class="tab-content " id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <div class="row">
-                                <div class="col-12 ">                                                            
-                                                    <ul class="list-group list-group-flush">
-                                                      <li class="list-group-item " >
-                                                          <a class="custom-card" href="chatView.html">  
-                                                                <div class="card">                                                    
-                                                                        <div class="row card-body">
-                                                                          <div class="col"><img class="profile-pic" src="avatar2.png"></div>
-                                                                          <div class="card-content col-9">
-                                                                                <h5 class="card-title">Name of Person or Group</h5>    
-                                                                                <p class="card-text">Some random text message</p>
-                                                                          </div>                                                      
-                                                                          <div class="notification-time col">
-                                                                                <div><span class="badge badge-danger">4</span></div>
-                                                                                <div><span class="badge badge-light">05:23</span></div>                                                                                                                                                                
-                                                                          </div>
-                                                                        </div>
-                                                                </div>
-                                                          </a>
-                                                        </li>
-                                                        <li class="list-group-item " >
-                                                            <a class="custom-card" href="chatView.html">  
-                                                                  <div class="card">                                                    
-                                                                          <div class="row card-body">
-                                                                            <div class="col"><img class="profile-pic" src="avatar3.png"></div>
-                                                                            <div class="card-content col-9">
-                                                                                  <h5 class="card-title">Name of Person or Group</h5>    
-                                                                                  <p class="card-text">Some random text message</p>
-                                                                            </div>                                                      
-                                                                            <div class="notification-time col">
-                                                                                  <div><span class="badge badge-danger"></span></div>
-                                                                                  <div><span class="badge badge-light">07:23</span></div>                                                                                                                                                                
-                                                                            </div>
-                                                                          </div>
-                                                                  </div>
-                                                            </a>
-                                                          </li>
-                                                          <li class="list-group-item " >
-                                                            <a class="custom-card" href="chatView.html">  
-                                                                  <div class="card">                                                    
-                                                                          <div class="row card-body">
-                                                                            <div class="col"><img class="profile-pic" src="avatar4.png"></div>
-                                                                            <div class="card-content col-9">
-                                                                                  <h5 class="card-title">Name of Person or Group</h5>    
-                                                                                  <p class="card-text">Some random text message</p>
-                                                                            </div>                                                      
-                                                                            <div class="notification-time col">
-                                                                                  <div><span class="badge badge-danger">11</span></div>
-                                                                                  <div><span class="badge badge-light">11:23</span></div>                                                                                                                                                                
-                                                                            </div>
-                                                                          </div>
-                                                                  </div>
-                                                            </a>
-                                                          </li>
-                                                          <li class="list-group-item " >
-                                                            <a class="custom-card" href="#">  
-                                                                  <div class="card">                                                    
-                                                                          <div class="row card-body">
-                                                                            <div class="col"><img class="profile-pic" src="avatar5.png"></div>
-                                                                            <div class="card-content col-9">
-                                                                                  <h5 class="card-title">Name of Person or Group</h5>    
-                                                                                  <p class="card-text">Some random text message</p>
-                                                                            </div>                                                      
-                                                                            <div class="notification-time col">
-                                                                                  <div><span class="badge badge-danger">6</span></div>
-                                                                                  <div><span class="badge badge-light">05:23</span></div>                                                                                                                                                                
-                                                                            </div>
-                                                                          </div>
-                                                                  </div>
-                                                            </a>
-                                                          </li>
-                                                          <li class="list-group-item " >
-                                                            <a class="custom-card" href="#">  
-                                                                  <div class="card">                                                    
-                                                                          <div class="row card-body">
-                                                                            <div class="col"><img class="profile-pic" src="avatar6.png"></div>
-                                                                            <div class="card-content col-9">
-                                                                                  <h5 class="card-title">Name of Person or Group</h5>    
-                                                                                  <p class="card-text">Some random text message</p>
-                                                                            </div>                                                      
-                                                                            <div class="notification-time col">
-                                                                                  <div><span class="badge badge-danger"></span></div>
-                                                                                  <div><span class="badge badge-light">08:23</span></div>                                                                                                                                                                
-                                                                            </div>
-                                                                          </div>
-                                                                  </div>
-                                                            </a>
-                                                          </li>
-                                                          <li class="list-group-item " >
-                                                            <a class="custom-card" href="#">  
-                                                                  <div class="card">                                                    
-                                                                          <div class="row card-body">
-                                                                            <div class="col"><img class="profile-pic" src="avatar7.png"></div>
-                                                                            <div class="card-content col-9">
-                                                                                  <h5 class="card-title">Name of Person or Group</h5>    
-                                                                                  <p class="card-text">Some random text message</p>
-                                                                            </div>                                                      
-                                                                            <div class="notification-time col">
-                                                                                  <div><span class="badge badge-danger"></span></div>
-                                                                                  <div><span class="badge badge-light">05:23</span></div>                                                                                                                                                                
-                                                                            </div>
-                                                                          </div>
-                                                                  </div>
-                                                            </a>
-                                                          </li>
-                                                          <li class="list-group-item " >
-                                                            <a class="custom-card" href="#">  
-                                                                  <div class="card">                                                    
-                                                                          <div class="row card-body">
-                                                                            <div class="col"><img class="profile-pic" src="avatar8.png"></div>
-                                                                            <div class="card-content col-9">
-                                                                                  <h5 class="card-title">Name of Person or Group</h5>    
-                                                                                  <p class="card-text">Some random text message</p>
-                                                                            </div>                                                      
-                                                                            <div class="notification-time col">
-                                                                                  <div><span class="badge badge-danger">2</span></div>
-                                                                                  <div><span class="badge badge-light">05:23</span></div>                                                                                                                                                                
-                                                                            </div>
-                                                                          </div>
-                                                                  </div>
-                                                            </a>
-                                                          </li>
-                                                          <li class="list-group-item " >
-                                                            <a class="custom-card" href="#">  
-                                                                  <div class="card">                                                    
-                                                                          <div class="row card-body">
-                                                                            <div class="col"><img class="profile-pic" src="avatar9.png"></div>
-                                                                            <div class="card-content col-9">
-                                                                                  <h5 class="card-title">Name of Person or Group</h5>    
-                                                                                  <p class="card-text">Some random text message</p>
-                                                                            </div>                                                      
-                                                                            <div class="notification-time col">
-                                                                                  <div><span class="badge badge-danger"></span></div>
-                                                                                  <div><span class="badge badge-light">13:23</span></div>                                                                                                                                                                
-                                                                            </div>
-                                                                          </div>
-                                                                  </div>
-                                                            </a>
-                                                          </li>
-                                                          <li class="list-group-item " >
-                                                            <a class="custom-card" href="#">  
-                                                                  <div class="card">                                                    
-                                                                          <div class="row card-body">
-                                                                            <div class="col"><img class="profile-pic" src="avatar10.png"></div>
-                                                                            <div class="card-content col-9">
-                                                                                  <h5 class="card-title">Name of Person or Group</h5>    
-                                                                                  <p class="card-text">Some random text message</p>
-                                                                            </div>                                                      
-                                                                            <div class="notification-time col">
-                                                                                  <div><span class="badge badge-danger"></span></div>
-                                                                                  <div><span class="badge badge-light">06:23</span></div>                                                                                                                                                                
-                                                                            </div>
-                                                                          </div>
-                                                                  </div>
-                                                            </a>
-                                                          </li>
-                                                          <li class="list-group-item " >
-                                                            <a class="custom-card" href="#">  
-                                                                  <div class="card">                                                    
-                                                                          <div class="row card-body">
-                                                                            <div class="col"><img class="profile-pic" src="avatar11.png"></div>
-                                                                            <div class="card-content col-9">
-                                                                                  <h5 class="card-title">Name of Person or Group</h5>    
-                                                                                  <p class="card-text">Some random text message</p>
-                                                                            </div>                                                      
-                                                                            <div class="notification-time col">
-                                                                                  <div><span class="badge badge-danger"></span></div>
-                                                                                  <div><span class="badge badge-light">09:29</span></div>                                                                                                                                                                
-                                                                            </div>
-                                                                          </div>
-                                                                  </div>
-                                                            </a>
-                                                          </li>
-                                                          <li class="list-group-item " >
-                                                            <a class="custom-card" href="#">  
-                                                                  <div class="card">                                                    
-                                                                          <div class="row card-body">
-                                                                            <div class="col"><img class="profile-pic" src="avatar12.png"></div>
-                                                                            <div class="card-content col-9">
-                                                                                  <h5 class="card-title">Name of Person or Group</h5>    
-                                                                                  <p class="card-text">Some random text message</p>
-                                                                            </div>                                                      
-                                                                            <div class="notification-time col">
-                                                                                  <div><span class="badge badge-danger"></span></div>
-                                                                                  <div><span class="badge badge-light">16:23</span></div>                                                                                                                                                                
-                                                                            </div>
-                                                                          </div>
-                                                                  </div>
-                                                            </a>
-                                                          </li>
-                                                          <li class="list-group-item " >
-                                                            <a class="custom-card" href="#">  
-                                                                  <div class="card">                                                    
-                                                                          <div class="row card-body">
-                                                                            <div class="col"><img class="profile-pic" src="avatar1.png"></div>
-                                                                            <div class="card-content col-9">
-                                                                                  <h5 class="card-title">Name of Person or Group</h5>    
-                                                                                  <p class="card-text">Some random text message</p>
-                                                                            </div>                                                      
-                                                                            <div class="notification-time col">
-                                                                                  <div><span class="badge badge-danger"></span></div>
-                                                                                  <div><span class="badge badge-light">05:23</span></div>                                                                                                                                                                
-                                                                            </div>
-                                                                          </div>
-                                                                  </div>
-                                                            </a>
-                                                          </li>
-                                                      </ul>                     
-                                                    
-                                </div>
-                    
-                    
-                            </div>
-                </div>
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"><div class="row">
-                  <div class="col-12 ">                                                            
-                                      <ul class="list-group list-group-flush">
-                                        <li class="list-group-item " >
-                                            <a class="custom-card" href="#">  
-                                                  <div class="card">                                                    
-                                                          <div class="row card-body">
-                                                            <div class="col"><img class="profile-pic" src="avatar2.png"></div>
-                                                            <div class="card-content col-9">
-                                                                  <h5 class="card-title">Name of Person or Group</h5>    
-                                                                  <p class="card-text">Some random text message</p>
-                                                            </div>                                                      
-                                                            <div class="notification-time col">
-                                                                  <div><span class="badge badge-danger">4</span></div>
-                                                                  <div><span class="badge badge-light">05:23</span></div>                                                                                                                                                                
-                                                            </div>
-                                                          </div>
+                                    <div class="card col-12"><a href="chatView.html">                                                   
+                                                <div class="row card-body">
+                                                  <div class="col"><img class="profile-pic" src="avatar2.png"></div>
+                                                  <div class="card-content col-9">
+                                                        <h5 class="card-title">Name of Person or Group</h5>    
+                                                        <p class="card-text">Some random text message</p>
+                                                  </div>                                                      
+                                                  <div class="notification-time col">
+                                                        <div><span class="badge badge-danger">4</span></div>
+                                                        <div><span class="badge badge-light">05:23</span></div>                                                                                                                                                                
                                                   </div>
-                                            </a>
-                                          </li>
-                                          <li class="list-group-item " >
-                                              <a class="custom-card" href="#">  
-                                                    <div class="card">                                                    
-                                                            <div class="row card-body">
-                                                              <div class="col"><img class="profile-pic" src="avatar4.png"></div>
-                                                              <div class="card-content col-9">
-                                                                    <h5 class="card-title">Name of Person or Group</h5>    
-                                                                    <p class="card-text">Some random text message</p>
-                                                              </div>                                                      
-                                                              <div class="notification-time col">
-                                                                    <div><span class="badge badge-danger">11</span></div>
-                                                                    <div><span class="badge badge-light">11:23</span></div>                                                                                                                                                                
-                                                              </div>
-                                                            </div>
-                                                    </div>
-                                              </a>
-                                            </li>
-                                            <li class="list-group-item " >
-                                              <a class="custom-card" href="#">  
-                                                    <div class="card">                                                    
+                                                </div></a> 
+                                        </div>
+                                        <div class="card col-12">                                                    
+                                                <div class="row card-body">
+                                                  <div class="col"><img class="profile-pic" src="avatar3.png"></div>
+                                                  <div class="card-content col-9">
+                                                        <h5 class="card-title">Name of Person or Group</h5>    
+                                                        <p class="card-text">Some random text message</p>
+                                                  </div>                                                      
+                                                  <div class="notification-time col">
+                                                        <div><span class="badge badge-danger"></span></div>
+                                                        <div><span class="badge badge-light">07:23</span></div>                                                                                                                                                                
+                                                  </div>
+                                                </div>
+                                        </div>
+                                        <div class="card col-12">                                                    
+                                                        <div class="row card-body">
+                                                          <div class="col"><img class="profile-pic" src="avatar4.png"></div>
+                                                          <div class="card-content col-9">
+                                                                <h5 class="card-title">Name of Person or Group</h5>    
+                                                                <p class="card-text">Some random text message</p>
+                                                          </div>                                                      
+                                                          <div class="notification-time col">
+                                                                <div><span class="badge badge-danger">11</span></div>
+                                                                <div><span class="badge badge-light">11:23</span></div>                                                                                                                                                                
+                                                          </div>
+                                                        </div>
+                                                </div>
+                                                <div class="card col-12">                                                    
                                                             <div class="row card-body">
                                                               <div class="col"><img class="profile-pic" src="avatar5.png"></div>
                                                               <div class="card-content col-9">
@@ -331,45 +109,7 @@
                                                               </div>
                                                             </div>
                                                     </div>
-                                              </a>
-                                            </li>
-                                            <li class="list-group-item " >
-                                                <a class="custom-card" href="#">  
-                                                      <div class="card">                                                    
-                                                              <div class="row card-body">
-                                                                <div class="col"><img class="profile-pic" src="avatar8.png"></div>
-                                                                <div class="card-content col-9">
-                                                                      <h5 class="card-title">Name of Person or Group</h5>    
-                                                                      <p class="card-text">Some random text message</p>
-                                                                </div>                                                      
-                                                                <div class="notification-time col">
-                                                                      <div><span class="badge badge-danger">2</span></div>
-                                                                      <div><span class="badge badge-light">05:23</span></div>                                                                                                                                                                
-                                                                </div>
-                                                              </div>
-                                                      </div>
-                                                </a>
-                                              </li>
-                                            <li class="list-group-item " >
-                                              <a class="custom-card" href="#">  
-                                                    <div class="card">                                                    
-                                                            <div class="row card-body">
-                                                              <div class="col"><img class="profile-pic" src="avatar3.png"></div>
-                                                              <div class="card-content col-9">
-                                                                    <h5 class="card-title">Name of Person or Group</h5>    
-                                                                    <p class="card-text">Some random text message</p>
-                                                              </div>                                                      
-                                                              <div class="notification-time col">
-                                                                    <div><span class="badge badge-danger"></span></div>
-                                                                    <div><span class="badge badge-light">07:23</span></div>                                                                                                                                                                
-                                                              </div>
-                                                            </div>
-                                                    </div>
-                                              </a>
-                                            </li>
-                                            <li class="list-group-item " >
-                                              <a class="custom-card" href="#">  
-                                                    <div class="card">                                                    
+                                                    <div class="card col-12">                                                    
                                                             <div class="row card-body">
                                                               <div class="col"><img class="profile-pic" src="avatar6.png"></div>
                                                               <div class="card-content col-9">
@@ -382,11 +122,7 @@
                                                               </div>
                                                             </div>
                                                     </div>
-                                              </a>
-                                            </li>
-                                            <li class="list-group-item " >
-                                              <a class="custom-card" href="#">  
-                                                    <div class="card">                                                    
+                                                    <div class="card col-12">                                                    
                                                             <div class="row card-body">
                                                               <div class="col"><img class="profile-pic" src="avatar7.png"></div>
                                                               <div class="card-content col-9">
@@ -399,12 +135,20 @@
                                                               </div>
                                                             </div>
                                                     </div>
-                                              </a>
-                                            </li>
-                                           
-                                            <li class="list-group-item " >
-                                              <a class="custom-card" href="#">  
-                                                    <div class="card">                                                    
+                                                    <div class="card col-12">                                                    
+                                                            <div class="row card-body">
+                                                              <div class="col"><img class="profile-pic" src="avatar8.png"></div>
+                                                              <div class="card-content col-9">
+                                                                    <h5 class="card-title">Name of Person or Group</h5>    
+                                                                    <p class="card-text">Some random text message</p>
+                                                              </div>                                                      
+                                                              <div class="notification-time col">
+                                                                    <div><span class="badge badge-danger">2</span></div>
+                                                                    <div><span class="badge badge-light">05:23</span></div>                                                                                                                                                                
+                                                              </div>
+                                                            </div>
+                                                    </div>
+                                                    <div class="card col-12">                                                    
                                                             <div class="row card-body">
                                                               <div class="col"><img class="profile-pic" src="avatar9.png"></div>
                                                               <div class="card-content col-9">
@@ -417,11 +161,7 @@
                                                               </div>
                                                             </div>
                                                     </div>
-                                              </a>
-                                            </li>
-                                            <li class="list-group-item " >
-                                              <a class="custom-card" href="#">  
-                                                    <div class="card">                                                    
+                                                    <div class="card col-12">                                                    
                                                             <div class="row card-body">
                                                               <div class="col"><img class="profile-pic" src="avatar10.png"></div>
                                                               <div class="card-content col-9">
@@ -434,11 +174,7 @@
                                                               </div>
                                                             </div>
                                                     </div>
-                                              </a>
-                                            </li>
-                                            <li class="list-group-item " >
-                                              <a class="custom-card" href="#">  
-                                                    <div class="card">                                                    
+                                                    <div class="card col-12">                                                    
                                                             <div class="row card-body">
                                                               <div class="col"><img class="profile-pic" src="avatar11.png"></div>
                                                               <div class="card-content col-9">
@@ -451,11 +187,7 @@
                                                               </div>
                                                             </div>
                                                     </div>
-                                              </a>
-                                            </li>
-                                            <li class="list-group-item " >
-                                              <a class="custom-card" href="#">  
-                                                    <div class="card">                                                    
+                                                    <div class="card col-12">                                                    
                                                             <div class="row card-body">
                                                               <div class="col"><img class="profile-pic" src="avatar12.png"></div>
                                                               <div class="card-content col-9">
@@ -468,11 +200,20 @@
                                                               </div>
                                                             </div>
                                                     </div>
-                                              </a>
-                                            </li>
-                                            <li class="list-group-item " >
-                                              <a class="custom-card" href="#">  
-                                                    <div class="card">                                                    
+                                                    <div class="card col-12">                                                    
+                                                            <div class="row card-body">
+                                                              <div class="col"><img class="profile-pic" src="avatar12.png"></div>
+                                                              <div class="card-content col-9">
+                                                                    <h5 class="card-title">Name of Person or Group</h5>    
+                                                                    <p class="card-text">Some random text message</p>
+                                                              </div>                                                      
+                                                              <div class="notification-time col">
+                                                                    <div><span class="badge badge-danger"></span></div>
+                                                                    <div><span class="badge badge-light">16:23</span></div>                                                                                                                                                                
+                                                              </div>
+                                                            </div>
+                                                    </div>
+                                                    <div class="card col-12">                                                    
                                                             <div class="row card-body">
                                                               <div class="col"><img class="profile-pic" src="avatar1.png"></div>
                                                               <div class="card-content col-9">
@@ -484,15 +225,169 @@
                                                                     <div><span class="badge badge-light">05:23</span></div>                                                                                                                                                                
                                                               </div>
                                                             </div>
-                                                    </div>
-                                              </a>
-                                            </li>
-                                        </ul>                     
-                                      
-                  </div>
-      
-      
-              </div></div>
+                                                    </div>           
+                            </div>
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                      <div class="row">
+                              <div class="card col-12">                                                    
+                                          <div class="row card-body">
+                                            <div class="col"><img class="profile-pic" src="avatar2.png"></div>
+                                            <div class="card-content col-9">
+                                                  <h5 class="card-title">Name of Person or Group</h5>    
+                                                  <p class="card-text">Some random text message</p>
+                                            </div>                                                      
+                                            <div class="notification-time col">
+                                                  <div><span class="badge badge-danger">4</span></div>
+                                                  <div><span class="badge badge-light">05:23</span></div>                                                                                                                                                                
+                                            </div>
+                                          </div>
+                                  </div>
+                                  <div class="card col-12">                                                    
+                                          <div class="row card-body">
+                                            <div class="col"><img class="profile-pic" src="avatar4.png"></div>
+                                            <div class="card-content col-9">
+                                                  <h5 class="card-title">Name of Person or Group</h5>    
+                                                  <p class="card-text">Some random text message</p>
+                                            </div>                                                      
+                                            <div class="notification-time col">
+                                                  <div><span class="badge badge-danger">11</span></div>
+                                                  <div><span class="badge badge-light">11:23</span></div>                                                                                                                                                                
+                                            </div>
+                                          </div>
+                                  </div>
+                                  <div class="card col-12">                                                    
+                                          <div class="row card-body">
+                                            <div class="col"><img class="profile-pic" src="avatar5.png"></div>
+                                            <div class="card-content col-9">
+                                                  <h5 class="card-title">Name of Person or Group</h5>    
+                                                  <p class="card-text">Some random text message</p>
+                                            </div>                                                      
+                                            <div class="notification-time col">
+                                                  <div><span class="badge badge-danger">6</span></div>
+                                                  <div><span class="badge badge-light">05:23</span></div>                                                                                                                                                                
+                                            </div>
+                                          </div>
+                                  </div>
+                                  <div class="card col-12">                                                    
+                                          <div class="row card-body">
+                                            <div class="col"><img class="profile-pic" src="avatar8.png"></div>
+                                            <div class="card-content col-9">
+                                                  <h5 class="card-title">Name of Person or Group</h5>    
+                                                  <p class="card-text">Some random text message</p>
+                                            </div>                                                      
+                                            <div class="notification-time col">
+                                                  <div><span class="badge badge-danger">2</span></div>
+                                                  <div><span class="badge badge-light">05:23</span></div>                                                                                                                                                                
+                                            </div>
+                                          </div>
+                                  </div>
+                                  <div class="card col-12">                                                    
+                                          <div class="row card-body">
+                                            <div class="col"><img class="profile-pic" src="avatar3.png"></div>
+                                            <div class="card-content col-9">
+                                                  <h5 class="card-title">Name of Person or Group</h5>    
+                                                  <p class="card-text">Some random text message</p>
+                                            </div>                                                      
+                                            <div class="notification-time col">
+                                                  <div><span class="badge badge-danger"></span></div>
+                                                  <div><span class="badge badge-light">07:23</span></div>                                                                                                                                                                
+                                            </div>
+                                          </div>
+                                  </div>
+                                  <div class="card col-12">                                                    
+                                          <div class="row card-body">
+                                            <div class="col"><img class="profile-pic" src="avatar6.png"></div>
+                                            <div class="card-content col-9">
+                                                  <h5 class="card-title">Name of Person or Group</h5>    
+                                                  <p class="card-text">Some random text message</p>
+                                            </div>                                                      
+                                            <div class="notification-time col">
+                                                  <div><span class="badge badge-danger"></span></div>
+                                                  <div><span class="badge badge-light">08:23</span></div>                                                                                                                                                                
+                                            </div>
+                                          </div>
+                                  </div>
+                                  <div class="card col-12">                                                    
+                                          <div class="row card-body">
+                                            <div class="col"><img class="profile-pic" src="avatar7.png"></div>
+                                            <div class="card-content col-9">
+                                                  <h5 class="card-title">Name of Person or Group</h5>    
+                                                  <p class="card-text">Some random text message</p>
+                                            </div>                                                      
+                                            <div class="notification-time col">
+                                                  <div><span class="badge badge-danger"></span></div>
+                                                  <div><span class="badge badge-light">05:23</span></div>                                                                                                                                                                
+                                            </div>
+                                          </div>
+                                  </div>
+                                  <div class="card col-12">                                                    
+                                          <div class="row card-body">
+                                            <div class="col"><img class="profile-pic" src="avatar9.png"></div>
+                                            <div class="card-content col-9">
+                                                  <h5 class="card-title">Name of Person or Group</h5>    
+                                                  <p class="card-text">Some random text message</p>
+                                            </div>                                                      
+                                            <div class="notification-time col">
+                                                  <div><span class="badge badge-danger"></span></div>
+                                                  <div><span class="badge badge-light">13:23</span></div>                                                                                                                                                                
+                                            </div>
+                                          </div>
+                                  </div>
+                                  <div class="card col-12">                                                    
+                                          <div class="row card-body">
+                                            <div class="col"><img class="profile-pic" src="avatar10.png"></div>
+                                            <div class="card-content col-9">
+                                                  <h5 class="card-title">Name of Person or Group</h5>    
+                                                  <p class="card-text">Some random text message</p>
+                                            </div>                                                      
+                                            <div class="notification-time col">
+                                                  <div><span class="badge badge-danger"></span></div>
+                                                  <div><span class="badge badge-light">06:23</span></div>                                                                                                                                                                
+                                            </div>
+                                          </div>
+                                  </div>
+                                  <div class="card col-12">                                                    
+                                          <div class="row card-body">
+                                            <div class="col"><img class="profile-pic" src="avatar11.png"></div>
+                                            <div class="card-content col-9">
+                                                  <h5 class="card-title">Name of Person or Group</h5>    
+                                                  <p class="card-text">Some random text message</p>
+                                            </div>                                                      
+                                            <div class="notification-time col">
+                                                  <div><span class="badge badge-danger"></span></div>
+                                                  <div><span class="badge badge-light">09:29</span></div>                                                                                                                                                                
+                                            </div>
+                                          </div>
+                                  </div>
+                                  <div class="card col-12">                                                    
+                                          <div class="row card-body">
+                                            <div class="col"><img class="profile-pic" src="avatar12.png"></div>
+                                            <div class="card-content col-9">
+                                                  <h5 class="card-title">Name of Person or Group</h5>    
+                                                  <p class="card-text">Some random text message</p>
+                                            </div>                                                      
+                                            <div class="notification-time col">
+                                                  <div><span class="badge badge-danger"></span></div>
+                                                  <div><span class="badge badge-light">16:23</span></div>                                                                                                                                                                
+                                            </div>
+                                          </div>
+                                  </div>
+                                  <div class="card col-12">                                                    
+                                          <div class="row card-body">
+                                            <div class="col"><img class="profile-pic" src="avatar1.png"></div>
+                                            <div class="card-content col-9">
+                                                  <h5 class="card-title">Name of Person or Group</h5>    
+                                                  <p class="card-text">Some random text message</p>
+                                            </div>                                                      
+                                            <div class="notification-time col">
+                                                  <div><span class="badge badge-danger"></span></div>
+                                                  <div><span class="badge badge-light">05:23</span></div>                                                                                                                                                                
+                                            </div>
+                                          </div>
+                                  </div>
+              </div>
+            </div>
                 
               </div>
     <!--navigation bar end-->
