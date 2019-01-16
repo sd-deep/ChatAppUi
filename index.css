@@ -12,6 +12,11 @@ body {
 
  
 /*nav bar collapse*/
+.nav-body{
+    padding-top: 65px;
+    
+}
+
 .card-body{
     display: flex;
     flex-direction: row;
